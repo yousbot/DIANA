@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "\n\n\n# -------------------------------------------------------------------------------------------------------- \n# \n#\n#\n#   Author          :    Youssef Sbai Idrissi\n#   Maintainer      :    Youssef Sbai Idrissi\n#   Github          :    https://github.com/postwittgenstein\n#   Description     :    This is the DIANA Algorithm, or called Divisive Analysis Algorithm. Used for clustering. i prefered to let it open than to wrap \n#                        it into a package. You're free to use it and to share it. Enjoy !\n#   Specification   :    The data in your data set should be set in the orde below :\n#                         \n#                           A1        A2        ...       An\n#                           1         0         ...       0\n#                           0         0         ...       1\n#                         \n#                        All we need is a data set in the order above, then the algorithm classify it. Creating groups depending on the nGroups numbers\n#                        you've specified.\n#\n#   \n#   NOTE            :    This page is set as an example of use.\n#                        1 ) Import the source as : \n#                            > source(\"./DIANA_Launch.R)\n#                        2 ) Call the function, by giving in agument the source of Data to analyse :\n#                            > DIANA( path = \"./H_Clustering_Data_Sample.xlsx\", nGroups = 3)\n#\n#\n#   Data Sample     :    If you've extracted the file from my git source, you'll find a set of \n#                        sample data we've used in the class of DataMining. Here is the path : \n#                        \n#                         \"./H_Clustering_Data_Sample.xlsx\"\n#           \n#\n#\n#\n# -------------------------------------------------------------------------------------------------------- \n\n\n\nsource(\"./DIANA_Launch.R\")\n\nDIANA(path = \"./H_Clustering_Data_Sample.xlsx\", nGroups = 3)\n\n\n",
+    "created" : 1493586995541.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2745028496",
+    "id" : "982F3675",
+    "lastKnownWriteTime" : 1493587472,
+    "last_content_update" : 1493587472389,
+    "path" : "~/Clustering/DIANA/DIANA_Test.R",
+    "project_path" : "DIANA_Test.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
